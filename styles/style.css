@@ -1,0 +1,31 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 244, 232);
+    color:  #331a00;
+    margin: 0%;
+}
+
+.main_img{
+    width: 100vw;
+    height: 400px;
+    font-size: 32px;
+    background-image: url('../images/background.jpg');
+    background-size: cover; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 32px;
+}
+
+p{
+    font-size: 17px;
+}
+
+
+
+
