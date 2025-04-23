@@ -18,6 +18,10 @@ body{
     justify-content: center;
 }
 
+.menu{
+    margin-bottom: 1em;
+}
+
 h2{
     font-size: 32px;
 }
