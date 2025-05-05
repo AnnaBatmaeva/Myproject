@@ -46,17 +46,27 @@ textarea {
     margin-bottom: 1em;
 }
 
-a {
+.main-selecctor a {
     display: block;
+    font-size: 17px;
+    margin-bottom: 4px;
 }
 
 
 h2 {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-size: 32px;
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 12px;
     font-size: 32px;
 }
 
 p {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 form {
