@@ -1,12 +1,12 @@
 
-body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Times New Roman', Times, serif;
+body {
+    font-family: Arno Pro;
     background-color: rgb(255, 244, 232);
     color:  #331a00;
     margin: 0%;
 }
 
-.main_img{
+.main_img {
     width: 100vw;
     height: 400px;
     font-size: 32px;
@@ -18,18 +18,48 @@ body{
     justify-content: center;
 }
 
-.menu{
+
+.anot-text {
+    margin-bottom: 15px;
+    margin-top: 7px;
+    box-sizing: border-box;
+}
+
+.main-selecctor {
+    padding: 0.2em;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-text {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+
+.menu {
     margin-bottom: 1em;
 }
 
-h2{
+a {
+    display: block;
+}
+
+
+h2 {
     font-size: 32px;
 }
 
-p{
+p {
     font-size: 17px;
 }
 
+form {
+    width: 55%;
 
-
-
+}

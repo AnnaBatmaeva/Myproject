@@ -12,49 +12,53 @@
     <div class="main_img">
         <h1>Зв'язатись з нами</h1>
     </div>
-    <div class="menu">
-        <h3>Меню</h3>
-        <a href="../index.html">Головна</a>
-        <br>
-        <a href="./about.html">Інформація</a>
-        <br>
-        <a href="./articles.html">Статті</a>
-        <br>
-        <a href="./contacts.html">Контакти</a> <!--Тут я попрацювала з формою-->
-        <br>
-        <a href="./gallery.html">Галерея</a>
-        <br>
-        <a href="./another.html">Інші породи</a> <!--Тут я попрацювала з якорями-->
-    </div>
+    <div class="main-selecctor">
+        <div class="menu">
+            <h3>Меню</h3>
+            <a href="../index.html">Головна</a>
+            <a href="./about.html">Інформація</a>
+            <a href="./articles.html">Статті</a>
+            <a href="./contacts.html">Контакти</a> <!--Тут я попрацювала з формою-->
+            <a href="./gallery.html">Галерея</a>
+            <a href="./another.html">Інші породи</a> <!--Тут я попрацювала з якорями-->
+        </div>
 
-    <form>
-        <fieldset>
-            <legend>Контактна інформація</legend>
-            <label for="name">Ім'я:</label>
-            <input type="text" id="name" name="name">
-            <input type="radio" name="gender" value="male"> Чоловік
-            <input type="radio" name="gender" value="female"> Жінка
-            <br>
-            <label for="email">Електронна пошта:</label>
-            <input type="email" id="email" name="email">
-            <br>
-            <label for="tel">Номер телефону:</label>
-            <input type="tel" id="tel" name="tel">
-            <label for="fruit">Ви хочете щоб:</label>
-            <select id="fruit" name="fruit">
-                <option value="variant1">Вам зателефонували</option>
-                <option value="variant2">Вам написали</option>
-                <option value="variant3">Немає різниці</option>
-            </select>
-            <br>
-            <label for="message">Ваш коментар:</label>
-            <textarea id="message" name="message" rows="4" cols="50">Ваш коментар
-            </textarea>
-            <br>
-            <button type="submit">Надіслати</button>
-            <button type="reset">Скинути</button>
-        </fieldset>
-    </form>
+        <form>
+            <fieldset>
+                <legend>Контактна інформація</legend>
+                <div>
+                    <label for="name">Ім'я:</label>
+                    <input type="text" id="name" name="name" class="form-text">
+                </div>
+                <div>
+                    <label for="email">Електронна пошта:</label>
+                    <input type="email" id="email" name="email" class="form-text">
+                </div>
+                <div>
+                    <label for="tel">Номер телефону:</label>
+                    <input type="tel" id="tel" name="tel" class="form-text">
+                </div>
+                <div class="anot-text">
+                    <label for="fruit">Ви хочете щоб:</label>
+                    <select id="fruit" name="fruit">
+                        <option value="variant1">Вам зателефонували</option>
+                        <option value="variant2">Вам написали</option>
+                        <option value="variant3">Немає різниці</option>
+                    </select>
+                </div>
+
+                <div class="anot-text">
+                    <textarea id="message" name="message" rows="5" cols="60">Ваш коментар
+                </textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Надіслати</button>
+                    <button type="reset">Скинути</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 </body>
 
 </html>
